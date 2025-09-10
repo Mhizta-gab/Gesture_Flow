@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+# Gesture_Flow
+=======
 # Gesture Flow
 
 Sign language detection app with a React (Vite) frontend, FastAPI backend, and a PyTorch I3D model. Supports webcam recording or video uploads, and saves detection history to Appwrite for analytics.
@@ -85,3 +88,4 @@ If you don't configure Appwrite, detection still works; dashboard analytics that
 
 ## Tech Notes (I3D)
 I3D is an Inception-based model inflated to 3D to jointly capture appearance and motion. We sample ~64 frames, run through I3D, average logits over time, and report top‑k classes with confidence.
+>>>>>>> 83971a9 (Initial commit: app + model)
